@@ -39,7 +39,7 @@ git clone https://github.com/DrZhawitche/vim-config.git
 cd vim-config
 cp .vimrc ~/
 mkdir ~/.config/nvim/
-cp .vimrc ~/.config/nvim/ && mv ~/.config/nvim/.vimrc ~/.config/nvim/init.vim
+cp .vimrc ~/.config/nvim/ && mv ~/.config/neovim/.vimrc ~/.config/nvim/init.vim
 vim -c :PlugInstall && nvim -c :PlugInstall
 
 #Alacritty config
