@@ -6,7 +6,7 @@ sudo pacman -Syy
 sudo pacman -Syu #to update all packages
 
 #Required packages
-sudo pacman -S git base-devel #(even though git would already be installed technically)
+sudo pacman -S base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
