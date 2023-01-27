@@ -28,7 +28,6 @@ sudo pacman -S discord
 
 #Vim configuration
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-git clone https://github.com/DrZhawitche/vim-config.git
 mv dotfiles/.vimrc ~
 vim -c :PlugInstall
 
