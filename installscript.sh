@@ -41,6 +41,7 @@ mv dotfiles/.zshrc .config/
 
 # Moving other miscellanous files
 mv dotfiles/.config/autostart.sh .config/
+chmod +x .config/autostart.sh
 
 # Installing doom emacs
 sudo pacman -S emacs
