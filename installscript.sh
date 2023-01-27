@@ -8,6 +8,8 @@ cd yay
 makepkg -si
 cd
 
+# Cloning dotfiles repo
+git clone https://github.com/DrZhawitche/dotfiles.git
 #Window manager install
 sudo pacman -S awesome qtile python-wlroots lxappearance picom flameshot polkit-gnome volumeicon feh dmenu rofi
 yay -S hyrpland-git qtile-extras-git waybar swaybg wofi
