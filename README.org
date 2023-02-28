@@ -1,4 +1,4 @@
-#+title: Arch Install Script
+#+title: Desktop Install Script
 #+author: Dr_Zhawitche
 
 An installation script for arch linux and arch based distros, will install all my configs for [[https://github.com/DrZhawitche/dotfiles/blob/main/.config/vim/.vimrc][Vim]], [[https://github.com/DrZhawitche/dotfiles/tree/main/.config/zsh][Zsh]], [[https://github.com/DrZhawitche/dotfiles/tree/main/.config/bash][Bash]], the [[https://github.com/DrZhawitche/dotfiles/tree/main/.config/qtile][Qtile]] window manager, as well as other apps.
