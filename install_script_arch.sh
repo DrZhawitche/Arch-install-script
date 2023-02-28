@@ -33,7 +33,7 @@ rm -rf ~/.config
 mv ~/dotfiles/.config ~
 
 #Symbolics links for zsh, bash and vim
-
+mkdir ~/.config/vim/plugins
 ln -s ~/.config/zsh/.zshrc ~/.zshrc
 ln -s ~/.config/bash/.bash ~/.bash
 ln -s ~/.config/vim/.vimrc ~/.vimrc
