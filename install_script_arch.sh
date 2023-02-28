@@ -32,9 +32,15 @@ git clone https://github.com/DrZhawitche/dotfiles.git
 rm -rf ~/.config
 mv ~/dotfiles/.config ~
 
-#Symbolics links for zsh, bash and vim
+#Some vim stuff
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 mkdir ~/.config/vim/plugins
+
+#Symbolics links for zsh, bash and vim
 ln -s ~/.config/zsh/.zshrc ~/.zshrc
 ln -s ~/.config/bash/.bash ~/.bash
 ln -s ~/.config/vim/.vimrc ~/.vimrc
 ln -s ~/.config/vim/plugins ~/.vim/
+
+echo "Everything should be installed now, to install the vim plugins, open vim and run :PlugInstall."
